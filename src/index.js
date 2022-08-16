@@ -1,3 +1,3 @@
-import './style.css';
+import { load } from './mainModule'
 
-console.log("Works");
+load();

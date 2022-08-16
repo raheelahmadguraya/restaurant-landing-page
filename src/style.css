@@ -1,22 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@900&display=swap');
+
 html,
 body {
-  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  min-height: 100%;
-  min-width: 100%;
+  font-family: 'Martel', serif;
+  height: 100%;
+  width: 100%;
   background-color: white;
   margin: 0;
-  padding: 0;;
+  padding: 0;
 }
 
 body {
   display: grid;
   justify-content: center;
   align-items: center;
+  background-color: #FFD1C7;
 }
 
 #content {
-  background-color: #F5C7E0;
-  color: #9E1923;
-  max-width: 1000px;
-  min-width: 750px;
+  background-color: #FFD1C7;
+  padding-top: 50px;
+  color: #F04D2C;
+  max-width: 1500px;
+  min-width: 1250px;
+  height: 70%;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+.desc {
+  height: 50px;
+  display: grid;
+  align-items:flex-end;
 }

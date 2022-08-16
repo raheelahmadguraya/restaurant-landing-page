@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html,\\nbody {\\n  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\\n  min-height: 100%;\\n  min-width: 100%;\\n  background-color: white;\\n  margin: 0;\\n  padding: 0;;\\n}\\n\\nbody {\\n  display: grid;\\n  justify-content: center;\\n  align-items: center;\\n}\\n\\n#content {\\n  background-color: #F5C7E0;\\n  color: #9E1923;\\n  max-width: 1000px;\\n  min-width: 750px;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-landing-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Martel:wght@900&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"html,\\nbody {\\n  font-family: 'Martel', serif;\\n  height: 100%;\\n  width: 100%;\\n  background-color: white;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\nbody {\\n  display: grid;\\n  justify-content: center;\\n  align-items: center;\\n  background-color: #FFD1C7;\\n}\\n\\n#content {\\n  background-color: #FFD1C7;\\n  padding-top: 50px;\\n  color: #F04D2C;\\n  max-width: 1500px;\\n  min-width: 1250px;\\n  height: 70%;\\n  display: grid;\\n  justify-content: center;\\n  justify-items: center;\\n  align-items: center;\\n  align-content: center;\\n  grid-template-rows: 1fr 1fr 1fr;\\n}\\n\\nul {\\n  list-style-type: none;\\n  display: grid;\\n  grid-template-columns: 1fr 1fr 1fr;\\n  justify-content: center;\\n  align-items: center;\\n  gap: 50px;\\n  margin: 0;\\n  padding: 0;\\n}\\n\\n.desc {\\n  height: 50px;\\n  display: grid;\\n  align-items:flex-end;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-landing-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,37 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconsole.log(\"Works\");\n\n//# sourceURL=webpack://restaurant-landing-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mainModule__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mainModule */ \"./src/mainModule.js\");\n\n\n(0,_mainModule__WEBPACK_IMPORTED_MODULE_0__.load)();\n\n//# sourceURL=webpack://restaurant-landing-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/landing.js":
+/*!************************!*\
+  !*** ./src/landing.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"loadContent\": () => (/* binding */ loadContent)\n/* harmony export */ });\nconst loadContent = () => {\n  const desc = document.createElement(\"div\");\n  desc.classList.add(\"desc\");\n  desc.innerHTML = \"The most delicate pastry shop in all of Nebelsbad, with the most delicious signature treat and other item.\";\n\n  return desc;\n}\n\n\n\n//# sourceURL=webpack://restaurant-landing-page/./src/landing.js?");
+
+/***/ }),
+
+/***/ "./src/mainModule.js":
+/*!***************************!*\
+  !*** ./src/mainModule.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"load\": () => (/* binding */ load)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _mendle_logo_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mendle-logo.jpg */ \"./src/mendle-logo.jpg\");\n/* harmony import */ var _landing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./landing */ \"./src/landing.js\");\n\n\n\n\nconst load = () => {\n  const headerLogo = document.createElement('div');\n  const contentContainer = document.getElementById(\"content\");\n  const navBar = document.createElement('nav');\n\n  const myIcon = new Image(300, 300);\n  myIcon.src = _mendle_logo_jpg__WEBPACK_IMPORTED_MODULE_1__;\n\n  const navList = document.createElement('ul');\n  const nav1 = document.createElement('li');\n  nav1.innerHTML = 'Home';\n  navList.appendChild(nav1);\n  const nav2 = document.createElement('li');\n  nav2.innerHTML = 'Menu';\n  navList.appendChild(nav2);\n  const nav3 = document.createElement('li');\n  nav3.innerHTML = 'About';\n  navList.appendChild(nav3);\n\n  navBar.appendChild(navList);\n\n  headerLogo.appendChild(myIcon);\n  contentContainer.appendChild(headerLogo);\n  contentContainer.appendChild(navBar);\n\n  const content = (0,_landing__WEBPACK_IMPORTED_MODULE_2__.loadContent)();\n  contentContainer.appendChild(content)\n}\n\n\n\n//# sourceURL=webpack://restaurant-landing-page/./src/mainModule.js?");
+
+/***/ }),
+
+/***/ "./src/mendle-logo.jpg":
+/*!*****************************!*\
+  !*** ./src/mendle-logo.jpg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a1332956b63dcc5cbda3.jpg\";\n\n//# sourceURL=webpack://restaurant-landing-page/./src/mendle-logo.jpg?");
 
 /***/ })
 
@@ -171,6 +201,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +227,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
